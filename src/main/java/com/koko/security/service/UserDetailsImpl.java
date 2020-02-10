@@ -1,4 +1,4 @@
-package com.koko.service;
+package com.koko.security.service;
 
 import java.util.Collection;
 import java.util.List;

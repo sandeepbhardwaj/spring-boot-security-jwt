@@ -1,4 +1,4 @@
-package com.koko.service;
+package com.koko.security.service;
 
 import com.koko.entity.User;
 import com.koko.repository.UserRepository;
@@ -9,7 +9,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
